@@ -3,6 +3,9 @@ VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HE
 format:
 	gofmt -s -W ./
 
+# install:
+# 	go get
+
 lint:
 	golint
 
